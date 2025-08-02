@@ -50,7 +50,7 @@ public class Program
             Console.WriteLine($"\n'{newSeries.SerieName}' has been successfully added to the list!");
         }
 
-        // Comdey genre filtering
+        // Comedy genre filtering
         var comedyList = seriesList
             .Where(s => s.SerieType.ToLower().Contains("komedi"))
             .Select(s => new ComedySeries
