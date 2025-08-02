@@ -14,5 +14,5 @@ namespace Week07PatikaFlixMain
             public string SerieDirector { get; set; }
         }
 
-    }
+    
 }
